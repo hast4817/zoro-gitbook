@@ -1,0 +1,23 @@
+{
+	"title": "my book",
+	"description": "冲呀冲",
+    "author": "zoro",
+	"language": "zh-hans",
+	"gitbook": "3.2.3",
+	"links": {
+		"sidebar": {
+			"你想象不到的原始网站": "http://qlight.site"
+		}
+	},
+	"plugins": [
+   		"tbfed-pagefooter@^0.0.1",
+   		"splitter@^0.0.8"
+	],
+	"pluginsConfig": {
+    	"tbfed-pagefooter": {
+        	"copyright":"Copyright &copy www.qlight.site 2020",
+        	"modify_label": "Modified at ",
+        	"modify_format": "YYYY-MM-DD HH:mm:ss"
+    	}
+}	
+}
