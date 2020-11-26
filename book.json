@@ -1,12 +1,12 @@
 {
 	"title": "my book",
-	"description": "冲呀冲",
+	"description": "我的gitbook文档",
     "author": "zoro",
 	"language": "zh-hans",
 	"gitbook": "3.2.3",
 	"links": {
 		"sidebar": {
-			"你想象不到的原始网站": "http://qlight.site"
+			"我的网站": "http://qlight.site"
 		}
 	},
 	"plugins": [

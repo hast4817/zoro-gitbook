@@ -3,5 +3,6 @@
 * [简介](README.md)
 
 * gitbook搭建
-    * [搭建过程](gitbook/build.md)
-    * [遇到的问题](gitbook/problem.md)
+    * [搭建过程](gitbookBuild/build.md)
+    * [搭建遇到的问题](gitbookBuild/problem.md)
+

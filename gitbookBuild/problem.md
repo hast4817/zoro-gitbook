@@ -1,24 +1,27 @@
-##常用地址
+##搭建gitbook过程中遇到的错误
 
-> 以下为正式路径，无正式环境的账号无法登录
+- 报错1
+```
+Error: ENOENT: no such file or directory, stat '/var/www/http/book/_book/gitbook/gitbook-plugin-highlight/ebook.cs
+```
+网上找解决方案,修改copyPluginAssets.js里的第112行, confirm: true 为 confirm: false
+先用 ```locate copyPluginAssets.js```命令找到copyPluginAssets.js文件位置,然后编辑即可
+```
+$ locate copyPluginAssets.js
+/home/ubuntu/.gitbook/versions/3.2.3/lib/output/website/copyPluginAssets.js
+$ sudo vim /home/ubuntu/.gitbook/versions/3.2.3/lib/output/website/copyPluginAssets.js
+```
 
-- OC系统 https://oc.digi800.com/frontend/#/dashboard/dashboard
+- 报错2
+```
+Error: Couldn't locate plugins "splitter, expandable-chapters-small, anchors, github, github-buttons, donate, sharing-plus, anchor-navigation-ex, favicon",
+Run 'gitbook install' to install plugins from registry.
+```
+book.json里加了插件,没安装,运行```gitbook install``` 安装一下就好了
 
-- JIRA https://jira.digi800.com/secure/Dashboard.jspa
-
-- Jenkins https://jenkins.digi800.com/jenkins/view/7.ERP/
-
-- ERP https://oak.digi800.com/admin/index.php
-
-- ERIS http://eriswork.digi800.com/
-
-- Git   https://g.digi800.com/
-
-> 备注：以上系统，如果需要 Basic 验证，可先使用自己的 wiki 账号尝试登录(一般账号名是自己邮箱前的账号，默认密码是 090401)，若不行，可尝试公共账号：lebbay，密码：passw0rd 。
-
-
-## 特殊操作地址
-
-- 库存调整 https://oak.digi800.com/admin/whs/inventory_variance.php
-
-- 供应商密码修改 https://oak.digi800.com/admin/dev_tools/provider_pswd.php
+- 报错3
+```
+(node:25401) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+```
+这个报错并没有什么影响,原因是我的node版本是12.14.0,要解决的话,换成10.15.3就好了
+[切换node版本方法](https://www.jianshu.com/p/6f5e0da85dc1)
