@@ -8,3 +8,6 @@
 
 * git规范
     * [一些简单的git命令](git/instruction.md)
+    
+* 常用软件
+    * [技术向软件](software/technical.md)
