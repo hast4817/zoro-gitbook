@@ -10,9 +10,14 @@
 		}
 	},
 	"plugins": [
+		"-livereload",
    		"tbfed-pagefooter@^0.0.1",
+		"chapter-fold",
    		"splitter@^0.0.8"
 	],
+	"theme-default": {
+		"showLevel": true
+	},
 	"pluginsConfig": {
     	"tbfed-pagefooter": {
         	"copyright":"Copyright &copy www.qlight.site 2020",

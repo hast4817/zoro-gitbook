@@ -65,24 +65,23 @@ GitBook 基本的目录结构如下所示：
 book.json是配置文件,```gitbook init```时可能不会创建,可以手动新建.
 
 我的初始配置
-```
+```json
 {
-	"title": "my book",
-	"description": "我的gitbook文档",
-    "author": "zoro",
-	"language": "zh-hans",
-	"gitbook": "3.2.3",
-	"plugins": [
-   		"tbfed-pagefooter@^0.0.1",
-   		"splitter@^0.0.8"
-	],
-	"pluginsConfig": {
-    	"tbfed-pagefooter": {
-        	"copyright":"Copyright &copy www.qlight.site 2020",
-        	"modify_label": "Modified at ",
-        	"modify_format": "YYYY-MM-DD HH:mm:ss"
-    	}
-}	
+  "title": "my book",
+  "description": "我的gitbook文档",
+  "author": "zoro",
+  "language": "zh-hans",
+  "gitbook": "3.2.3",
+  "plugins": [
+    "tbfed-pagefooter@^0.0.1",
+    "splitter@^0.0.8"
+  ],
+  "pluginsConfig": {
+    "tbfed-pagefooter": {
+      "copyright":"Copyright &copy www.qlight.site 2020",
+      "modify_label": "Modified at ",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    }
+  }	
 }
-
 ```
