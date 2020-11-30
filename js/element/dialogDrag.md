@@ -7,7 +7,7 @@
 我稍微做了优化并提供了示例
 
 示例:
-```vue
+```html
     <!--添加v-dialogDrag 支持拖拽; 添加v-dialogDragWidth支持修改宽度 -->
     <el-dialog title="批量编辑" :visible.sync="thisDialog" width="60%" :close-on-click-modal="false"
                v-dialogDrag ref="dialog__wrapper">

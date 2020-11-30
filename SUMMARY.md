@@ -10,6 +10,7 @@
 * [js相关](js/README.md)
     * [element ui](js/element/README.md)
         * [dialog拖拽,调宽度](js/element/dialogDrag.md)
+        * [e-table的表头与内容没对齐](js/element/elTableCell.md)
 
 * [git规范](git/README.md)
     * [一些简单的git命令](git/instruction.md)

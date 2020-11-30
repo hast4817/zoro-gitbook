@@ -5,7 +5,7 @@
 
 [腾讯云盘下载](https://share.weiyun.com/Upenr9uQ) (密码：bmcqqp)
 
-## Xshell 5
+## Xftp 5
 [网站资源](https://www.banwagongzw.com/108.html)
 
 [腾讯云盘下载](https://share.weiyun.com/QN3pesLT) (密码：vp9u99)
